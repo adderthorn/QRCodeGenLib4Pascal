@@ -1018,7 +1018,7 @@ begin
   Result := TQRCodeGenLibBitmap.Create((FSize + (ABorder * 2)) * AScale,
     (FSize + (ABorder * 2)) * AScale);
 
-  Result.UsePalette := True;
+  Result.UsePalette := False;
 
   LForegroundColor := FForegroundColor;
   LBackgroundColor := FBackgroundColor;
